@@ -1,13 +1,26 @@
-Git:
+# Git
+
+- [Git - git-status Documentation](https://git-scm.com/docs/git-status)
+- [Git - git-remote Documentation](https://git-scm.com/docs/git-remote)
+- [Git - git-push Documentation](https://git-scm.com/docs/git-push)
+- [Git - git-rev-parse Documentation](https://git-scm.com/docs/git-rev-parse)
+- [Git - git-merge-base Documentation](https://git-scm.com/docs/git-merge-base)
 
 - [version control - git and empty folders - Stack Overflow](https://stackoverflow.com/questions/1767165/git-and-empty-folders)
-- [Git - git-status Documentation](https://git-scm.com/docs/git-status)
 - [What does the term &quot;porcelain&quot; mean in Git? - Stack Overflow](https://stackoverflow.com/questions/6976473/what-does-the-term-porcelain-mean-in-git)
 - [shell - Checking for a dirty index or untracked files with Git - Stack Overflow](https://stackoverflow.com/questions/2657935/checking-for-a-dirty-index-or-untracked-files-with-git)
 - [How can I check in a Bash script if my local Git repository has changes? - Stack Overflow](https://stackoverflow.com/questions/5143795/how-can-i-check-in-a-bash-script-if-my-local-git-repository-has-changes)
 - [bash - Check if pull needed in Git - Stack Overflow](https://stackoverflow.com/questions/3258243/check-if-pull-needed-in-git)
+- [git - Why do I need to do `--set-upstream` all the time? - Stack Overflow](https://stackoverflow.com/questions/6089294/why-do-i-need-to-do-set-upstream-all-the-time)
+- [github - How can I determine the URL that a local Git repository was originally cloned from? - Stack Overflow](https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr)
+- [bash - Check if git remote exists before first push - Stack Overflow](https://stackoverflow.com/questions/12170459/check-if-git-remote-exists-before-first-push)
+- [git - fatal: ambiguous argument &#39;origin&#39;: unknown revision or path not in the working tree - Stack Overflow](https://stackoverflow.com/questions/45096755/fatal-ambiguous-argument-origin-unknown-revision-or-path-not-in-the-working)
+- [OpenNET: статья - Внтутреннее устройство Git (git)](https://www.opennet.ru/base/dev/git_guts.txt.html)
+- [What does git rev-parse do? - Stack Overflow](https://stackoverflow.com/questions/15798862/what-does-git-rev-parse-do)
+- [Make an existing Git branch track a remote branch? - Stack Overflow](https://stackoverflow.com/questions/520650/make-an-existing-git-branch-track-a-remote-branch)
+- [git branch - Git: How do I list only local branches? - Stack Overflow](https://stackoverflow.com/questions/12370714/git-how-do-i-list-only-local-branches)
 
-bash:
+# bash
 
 - [shell - How to check if a variable is set in Bash? - Stack Overflow](https://stackoverflow.com/questions/3601515/how-to-check-if-a-variable-is-set-in-bash)
 - [scripting - How to manually expand a special variable (ex: ~ tilde) in bash - Stack Overflow](https://stackoverflow.com/questions/3963716/how-to-manually-expand-a-special-variable-ex-tilde-in-bash)
@@ -18,4 +31,8 @@ bash:
 - [unix - Check if a directory exists in a shell script - Stack Overflow](https://stackoverflow.com/questions/59838/check-if-a-directory-exists-in-a-shell-script)
 - [String contains in Bash - Stack Overflow](https://stackoverflow.com/questions/229551/string-contains-in-bash)
 - [bash - Shell scripting, loop through folders - Super User](https://superuser.com/questions/363437/shell-scripting-loop-through-folders)
-
+- [linux - Iterating over each line of ls -l output - Stack Overflow](https://stackoverflow.com/questions/2859908/iterating-over-each-line-of-ls-l-output)
+- [bash - How to do a logical OR operation in Shell Scripting - Stack Overflow](https://stackoverflow.com/questions/4111475/how-to-do-a-logical-or-operation-in-shell-scripting)
+- [Bash Shell Find Out If a Variable Is Empty Or Not - nixCraft](https://www.cyberciti.biz/faq/unix-linux-bash-script-check-if-variable-is-empty/)
+- [bash - Test if a command outputs an empty string - Stack Overflow](https://stackoverflow.com/questions/12137431/test-if-a-command-outputs-an-empty-string)
+- [linux - How to compare strings in Bash - Stack Overflow](https://stackoverflow.com/questions/2237080/how-to-compare-strings-in-bash)
