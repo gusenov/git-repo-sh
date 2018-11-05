@@ -1,10 +1,12 @@
 # Git
 
+- [Git - Viewing the Commit History](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
 - [Git - git-status Documentation](https://git-scm.com/docs/git-status)
 - [Git - git-remote Documentation](https://git-scm.com/docs/git-remote)
 - [Git - git-push Documentation](https://git-scm.com/docs/git-push)
 - [Git - git-rev-parse Documentation](https://git-scm.com/docs/git-rev-parse)
 - [Git - git-merge-base Documentation](https://git-scm.com/docs/git-merge-base)
+- [Git - git-filter-branch Documentation](https://git-scm.com/docs/git-filter-branch)
 
 - [version control - git and empty folders - Stack Overflow](https://stackoverflow.com/questions/1767165/git-and-empty-folders)
 - [What does the term &quot;porcelain&quot; mean in Git? - Stack Overflow](https://stackoverflow.com/questions/6976473/what-does-the-term-porcelain-mean-in-git)
@@ -19,6 +21,13 @@
 - [What does git rev-parse do? - Stack Overflow](https://stackoverflow.com/questions/15798862/what-does-git-rev-parse-do)
 - [Make an existing Git branch track a remote branch? - Stack Overflow](https://stackoverflow.com/questions/520650/make-an-existing-git-branch-track-a-remote-branch)
 - [git branch - Git: How do I list only local branches? - Stack Overflow](https://stackoverflow.com/questions/12370714/git-how-do-i-list-only-local-branches)
+- [Git: want to iterate through all commits on branch, and list files in each commit - Stack Overflow](https://stackoverflow.com/questions/5953767/git-want-to-iterate-through-all-commits-on-branch-and-list-files-in-each-commi)
+- [Git: How to find a deleted file in the project commit history? - Stack Overflow](https://stackoverflow.com/questions/7203515/git-how-to-find-a-deleted-file-in-the-project-commit-history)
+- [git - How to list all the files in a commit? - Stack Overflow](https://stackoverflow.com/questions/424071/how-to-list-all-the-files-in-a-commit)
+- [How to Batch Update Git Commit Messages](https://davidwalsh.name/update-git-commit-messages)
+- [Rewriting Git Commit Messages](http://www.burtonini.com/blog/2018/03/06/rewriting-git-commit-messages/)
+- [Edit an old commit message with git filter-branch - Stack Overflow](https://stackoverflow.com/questions/43603080/edit-an-old-commit-message-with-git-filter-branch)
+- [git commit - Purging file from Git repo failed, unable to create new backup - Stack Overflow](https://stackoverflow.com/questions/6403601/purging-file-from-git-repo-failed-unable-to-create-new-backup)
 
 # bash
 
@@ -36,3 +45,19 @@
 - [Bash Shell Find Out If a Variable Is Empty Or Not - nixCraft](https://www.cyberciti.biz/faq/unix-linux-bash-script-check-if-variable-is-empty/)
 - [bash - Test if a command outputs an empty string - Stack Overflow](https://stackoverflow.com/questions/12137431/test-if-a-command-outputs-an-empty-string)
 - [linux - How to compare strings in Bash - Stack Overflow](https://stackoverflow.com/questions/2237080/how-to-compare-strings-in-bash)
+- [awk - print columns with text and spaces | Unix Linux Forums | Shell Programming and Scripting](https://www.unix.com/shell-programming-and-scripting/245398-awk-print-columns-text-spaces.html)
+- [bash case statements evaluate to strings - Stack Overflow](https://stackoverflow.com/questions/2283640/bash-case-statements-evaluate-to-strings)
+- [Introduction to Bash arrays | Opensource.com](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
+- [shell - How to concatenate string variables in Bash - Stack Overflow](https://stackoverflow.com/questions/4181703/how-to-concatenate-string-variables-in-bash)
+- [Bash array usage cheatsheet.](https://gist.github.com/magnetikonline/0ca47c893de6a380c87e4bdad6ae5cf7)
+- [bash - Create array in loop from number of arguments - Stack Overflow](https://stackoverflow.com/questions/15420790/create-array-in-loop-from-number-of-arguments)
+- [Is there a way of reading the last element of an array with bash? - Unix &amp; Linux Stack Exchange](https://unix.stackexchange.com/questions/198787/is-there-a-way-of-reading-the-last-element-of-an-array-with-bash)
+- [The weird, wondrous world of Bash arrays – Robert Aboukhalil – Medium](https://medium.com/@robaboukhalil/the-weird-wondrous-world-of-bash-arrays-a86e5adf2c69)
+- [bash - readarray (or pipe) issue - Unix &amp; Linux Stack Exchange](https://unix.stackexchange.com/questions/136206/readarray-or-pipe-issue)
+- [Reading output of a command into an array in Bash - Stack Overflow](https://stackoverflow.com/questions/11426529/reading-output-of-a-command-into-an-array-in-bash/32931403)
+- [How do you process the output of a command in the shell line-by-line? - Stack Overflow](https://stackoverflow.com/questions/3113005/how-do-you-process-the-output-of-a-command-in-the-shell-line-by-line)
+- [bash: convert &#39;\n&#39; delimited strings into array - Stack Overflow](https://stackoverflow.com/questions/24628076/bash-convert-n-delimited-strings-into-array)
+- [bash - Are &lt;=,&gt;=, &lt;,&gt;, ==, !=, &amp;&amp;, and || used for arithmetic expressions or conditional expressions? - Unix &amp; Linux Stack Exchange](https://unix.stackexchange.com/questions/270591/are-and-used-for-arithmetic-expressions-or-conditiona)
+- [A bash function that takes argument like other languages? - Unix &amp; Linux Stack Exchange](https://unix.stackexchange.com/questions/122632/a-bash-function-that-takes-argument-like-other-languages)
+- [Checking for empty string in Bash &laquo;  timmurphy.org](https://timmurphy.org/2010/05/19/checking-for-empty-string-in-bash/)
+- [How to use arithmetic in an if statement for Bash - Stack Overflow](https://stackoverflow.com/questions/43443159/how-to-use-arithmetic-in-an-if-statement-for-bash)
