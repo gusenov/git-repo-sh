@@ -10,3 +10,4 @@
 | [find-changed-files.sh](find-changed-files.sh) | Показывает общий список изменившихся файлов для 2 веток в заданных диапазонах коммитов. |
 | [push-to-all-remotes.sh](push-to-all-remotes.sh) | Скрипт для ```push```'а ветки ```master``` во все ```remote```'ы. |
 | [push-lfs.sh](push-lfs.sh) | Отправляет коммиты во все remote'ы (скрипт поддерживает Git LFS). |
+| [repos-dirs.sh](repos-dirs.sh) | Показывает каталоги с репозиториями. |
