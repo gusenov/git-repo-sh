@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
+#set -x  # echo on
 
-readonly default_branch="master"
+# Usage:
+#  $ ./push-to-all-remotes.sh -b=master
+#  $ ./push-to-all-remotes.sh -b=main
+
+default_branch="master"
+
+for i in "$@"; do
+	case $i in
+		-b=*|--branch=*)
+			default_branch="${i#*=}"
+			shift # past argument=value
+			;;
+	esac
+done
 
 if [ ! -z "$(git status --porcelain)" ]; then
   echo "$(pwd) has changes!"
