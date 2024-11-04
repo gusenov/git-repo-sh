@@ -6,12 +6,17 @@
 #  $ ./push-to-all-remotes.sh -b=main
 
 default_branch="master"
+should_force="false"
 
 for i in "$@"; do
 	case $i in
 		-b=*|--branch=*)
 			default_branch="${i#*=}"
 			shift # past argument=value
+			;;
+		--force)
+			should_force="true"
+			shift # past argument with no value
 			;;
 	esac
 done
@@ -36,6 +41,14 @@ fi
 git remote show | while read remote_name; do
   fetch_url=$(git remote get-url $remote_name)
   push_url=$(git remote get-url --push $remote_name)
-  echo "git push $push_url $default_branch:$default_branch"
-  git push $push_url $default_branch:$default_branch
+
+  if [ "$should_force" == "true" ]
+  then 
+    echo "git push $push_url $default_branch:$default_branch --force"
+    git push $push_url $default_branch:$default_branch --force
+  else 
+    echo "git push $push_url $default_branch:$default_branch"
+    git push $push_url $default_branch:$default_branch
+  fi
+
 done
